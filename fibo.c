@@ -1,25 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
+    int i, n, f1 = 0, f2 = 1, f3;
 
-    int n,fib1=0,fib2=1,fib3=0,i;
-    printf("enter n\n");
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+
+    printf("Fibonacci Series: ");
+
+    for (i = 1; i <= n; ++i)
     {
-
-        if(n<=i)
-            fib3=i;
-        else
-        {
-            printf("fibonacci series are %d \n",fib3);
-            fib3=fib1+fib2;
-            fib1=fib2;
-            fib2=fib3;
+        printf("%d\t", f1);
+        f3 = f1 + f2;
+        f1 = f2;
+        f2 = f3;
     }
-
-    }
-
-
-return 0;
+    return 0;
 }
