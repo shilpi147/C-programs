@@ -10,7 +10,7 @@ int main()
 
     for (i = 1; i <= n; ++i)
     {
-        printf("%d\t", f1);
+    printf("%d\t", f1);
         f3 = f1 + f2;
         f1 = f2;
         f2 = f3;
