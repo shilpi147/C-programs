@@ -14,13 +14,13 @@ int main()
       for (d = 0; d < n; d++)
          scanf("%d", &first[c][d]);
 
-   printf("Enter the elements of second matrix\n");
+   printf("Enter the elements ofsowmya second matrix\n");
 
    for (c = 0; c < m; c++)
       for (d = 0 ; d < n; d++)
          scanf("%d", &second[c][d]);
 
-   printf("Subtraction of entered matrices:-\n");
+   printf("Subtraction of entered sowmya matrices:-\n");
 
    for (c = 0; c < m; c++) {
       for (d = 0 ; d < n; d++) {
