@@ -1,5 +1,5 @@
 #include<stdio.h>
-int rev(int n)
+int rev(long int n)
 {
     if(n==0)
     return 0;
@@ -8,5 +8,5 @@ int rev(int n)
  int main()
  {
 
-     printf("%d",rev(2334));
+     printf("%ld",rev(1000000000000000));
  }
